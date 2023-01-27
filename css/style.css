@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Press Start 2P', sans-serif;
+    overflow: hidden;
+}
+
+header {
+    padding: 30px;
+    height: 30vh;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+header button {
+    width: 150px;
+    height: 50px;
+    font-size: 27px;
+    border: none;
+    cursor: pointer;
+
+}
+
+header p {
+    float: right;
+    font-size: 20px;
+}
+
+header div {
+    position: relative;
+    width: 120px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    color: black;
+    font-size: 70px;
+}
+
+header div::after {
+    content: "";
+    width: 630px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 30px
+}
+
+header div::before {
+    content: "";
+    width: 630px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    right: 80px;
+    top: 30px
+}
+
+.main {
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.name {
+    width: 250px;
+    height: 130px;
+    font-size: 30px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-top: 80px;
+}
+
+.check {
+    display: block;
+    margin: 20px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+
+}
